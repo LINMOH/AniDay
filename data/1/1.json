@@ -1,0 +1,37 @@
+[
+  {
+    "name": "宫崎英高",
+    "anime": "地球 Online",
+    "image_url": "img/MiyazakiHidetaka.jpg"
+  },
+  {
+    "name": "四宫辉夜",
+    "anime": "辉夜大小姐想让我告白",
+    "image_url": "img/ShinomiyaKaguya.png"
+  },
+  {
+    "name": "四条真妃",
+    "anime": "辉夜大小姐想让我告白",
+    "image_url": "img/"
+  },
+  {
+    "name": "自律思考固定炮台",
+    "anime": "暗杀教室",
+    "image_url": "img/OnozuRitsu.jpg"
+  },
+  {
+    "name": "莱因哈鲁特·范·阿斯特雷亚",
+    "anime": "Re:从零开始的异世界生活",
+    "image_url": "img/ReinhardVanAstrea.jpg"
+  },
+  {
+    "name": "刚田猛男",
+    "anime": "俺物语!!",
+    "image_url": "img/GōdaTakeo.webp"
+  },
+  {
+    "name": "流川枫",
+    "anime": "灌篮高手",
+    "image_url": "img/"
+  }
+]
