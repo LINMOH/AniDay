@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>角色生日</title>
+    <title>人物生日</title>
     <style>
         * {
             margin: 0;
@@ -182,7 +182,7 @@
 <body>
     <div class="container">
         <div class="header">
-            <h1>角色生日</h1>
+            <h1>ACGN 人物生日</h1>
         </div>
 
         <div class="date-controls">
@@ -236,7 +236,7 @@
             showLoading(true);
             hideError();
 
-            document.getElementById('currentDate').textContent = `${dateLabel}的生日角色`;
+            document.getElementById('currentDate').textContent = `${dateLabel}的生日人物`;
 
             try {
                 const response = await fetch(`data/${month}/${day}.json`);
@@ -252,7 +252,7 @@
                 const characters = await response.json();
                 displayCharacters(characters, dateLabel);
             } catch (error) {
-                console.error('加载角色数据失败:', error);
+                console.error('加载人物数据失败:', error);
                 if (error.message.includes('404') || error.message.includes('fetch')) {
                     displayCharacters([], dateLabel);
                 } else {
@@ -270,7 +270,7 @@
                 (typeof characters === 'object' && Object.keys(characters).length === 0)) {
                 container.innerHTML = `
                     <div class="no-characters">
-                        今天没有角色过生日
+                        今天没有人物过生日
                     </div>
                 `;
                 return;
@@ -290,7 +290,7 @@
                 return `
                     <div class="character-card">
                         ${imageElement}
-                        <div class="character-name">${character.name || '未知角色'}</div>
+                        <div class="character-name">${character.name || '未知人物'}</div>
                         <div class="character-anime">${character.anime || '未知作品'}</div>
                     </div>
                 `;
