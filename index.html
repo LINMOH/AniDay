@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日生日角色</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .date-selector {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 25px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+            backdrop-filter: blur(10px);
+        }
+
+        .date-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+
+        .date-input {
+            padding: 12px 20px;
+            border: 2px solid #ddd;
+            border-radius: 25px;
+            font-size: 16px;
+            background: white;
+            transition: all 0.3s ease;
+        }
+
+        .date-input:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
+        }
+
+        .btn {
+            padding: 12px 25px;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+
+        .current-date {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 1.3em;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+        }
+
+        .characters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+
+        .character-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .character-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.25);
+        }
+
+        .character-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+            object-fit: cover;
+            border: 4px solid #667eea;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+
+        .character-card:hover .character-image {
+            transform: scale(1.05);
+        }
+
+        .character-name {
+            font-size: 1.4em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .character-anime {
+            color: #666;
+            text-align: center;
+            font-size: 1.1em;
+            line-height: 1.4;
+        }
+
+        .no-characters {
+            text-align: center;
+            padding: 60px 20px;
+            color: white;
+            font-size: 1.3em;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+        }
+
+        .no-characters i {
+            font-size: 3em;
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        .loading {
+            text-align: center;
+            color: white;
+            font-size: 1.2em;
+            padding: 40px;
+        }
+
+        .error {
+            background: rgba(255, 107, 107, 0.9);
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .date-controls {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .characters-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .birthday-icon {
+            font-size: 2em;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+
+        .character-card .birthday-icon {
+            text-align: center;
+            width: 100%;
+        }
+
+        .placeholder-image {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, #667eea, #764ba2);
+            color: white;
+            font-size: 2em;
+            border: 4px solid #667eea;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎂 今日生日角色</h1>
+            <p>发现你喜欢的角色今天是否过生日</p>
+        </div>
+
+        <div class="date-selector">
+            <div class="date-controls">
+                <input type="date" id="dateInput" class="date-input">
+                <button onclick="searchDate()" class="btn">查看生日角色</button>
+                <button onclick="showToday()" class="btn">返回今日</button>
+            </div>
+        </div>
+
+        <div class="current-date" id="currentDate"></div>
+
+        <div id="loading" class="loading" style="display: none;">
+            正在加载角色信息...
+        </div>
+
+        <div id="error" class="error" style="display: none;"></div>
+
+        <div id="charactersContainer"></div>
+    </div>
+
+    <script>
+        // 初始化当前日期
+        function initializeDate() {
+            const today = new Date();
+            const dateStr = today.toISOString().split('T')[0];
+            document.getElementById('dateInput').value = dateStr;
+            showToday();
+        }
+
+        // 显示今日角色
+        function showToday() {
+            const today = new Date();
+            const month = today.getMonth() + 1;
+            const day = today.getDate();
+            loadCharacters(month, day, '今日');
+        }
+
+        // 搜索指定日期
+        function searchDate() {
+            const dateInput = document.getElementById('dateInput').value;
+            if (!dateInput) {
+                showError('请选择一个日期');
+                return;
+            }
+
+            const date = new Date(dateInput);
+            const month = date.getMonth() + 1;
+            const day = date.getDate();
+            
+            const dateStr = `${month}月${day}日`;
+            loadCharacters(month, day, dateStr);
+        }
+
+        // 加载角色数据
+        async function loadCharacters(month, day, dateLabel) {
+            showLoading(true);
+            hideError();
+
+            // 更新当前日期显示
+            document.getElementById('currentDate').textContent = `${dateLabel} 的生日角色`;
+
+            try {
+                const response = await fetch(`data/${month}/${day}.json`);
+                
+                if (!response.ok) {
+                    if (response.status === 404) {
+                        // 文件不存在，显示无角色信息
+                        displayCharacters([], dateLabel);
+                        return;
+                    }
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+
+                const characters = await response.json();
+                displayCharacters(characters, dateLabel);
+            } catch (error) {
+                console.error('加载角色数据失败:', error);
+                if (error.message.includes('404') || error.message.includes('fetch')) {
+                    // 网络错误或文件不存在
+                    displayCharacters([], dateLabel);
+                } else {
+                    showError(`加载失败: ${error.message}`);
+                }
+            } finally {
+                showLoading(false);
+            }
+        }
+
+        // 显示角色列表
+        function displayCharacters(characters, dateLabel) {
+            const container = document.getElementById('charactersContainer');
+            
+            // 处理空数据或空对象的情况
+            if (!characters || characters.length === 0 || 
+                (typeof characters === 'object' && Object.keys(characters).length === 0)) {
+                container.innerHTML = `
+                    <div class="no-characters">
+                        <div class="birthday-icon">🎈</div>
+                        <div>今天没有角色过生日</div>
+                        <div style="font-size: 0.9em; margin-top: 10px; opacity: 0.8;">
+                            换个日期试试看吧！
+                        </div>
+                    </div>
+                `;
+                return;
+            }
+
+            const charactersHTML = characters.map(character => {
+                const imageElement = character.image_url && character.image_url.trim() !== "" ? 
+                    `<img src="${character.image_url}" alt="${character.name}" class="character-image" 
+                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                     <div class="placeholder-image" style="display: none;">
+                        ${character.name ? character.name.charAt(0) : '?'}
+                     </div>` :
+                    `<div class="placeholder-image">
+                        ${character.name ? character.name.charAt(0) : '?'}
+                     </div>`;
+
+                return `
+                    <div class="character-card">
+                        <div class="birthday-icon">🎂</div>
+                        ${imageElement}
+                        <div class="character-name">${character.name || '未知角色'}</div>
+                        <div class="character-anime">${character.anime || '未知作品'}</div>
+                    </div>
+                `;
+            }).join('');
+
+            container.innerHTML = `<div class="characters-grid">${charactersHTML}</div>`;
+        }
+
+        // 显示加载状态
+        function showLoading(show) {
+            document.getElementById('loading').style.display = show ? 'block' : 'none';
+            if (show) {
+                document.getElementById('charactersContainer').innerHTML = '';
+            }
+        }
+
+        // 显示错误信息
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        // 隐藏错误信息
+        function hideError() {
+            document.getElementById('error').style.display = 'none';
+        }
+
+        // 页面加载完成后初始化
+        document.addEventListener('DOMContentLoaded', initializeDate);
+
+        // 为日期输入框添加回车键支持
+        document.getElementById('dateInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') {
+                searchDate();
+            }
+        });
+    </script>
+</body>
+</html>
