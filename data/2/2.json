@@ -2,12 +2,12 @@
   {
     "name": "拉姆",
     "anime": "Re:从零开始的异世界生活",
-    "image_url": "img/"
+    "image_url": "img/Ram.jpg"
   },
   {
     "name": "雷姆",
     "anime": "Re:从零开始的异世界生活",
-    "image_url": "img/",
+    "image_url": "img/Rem.jpg",
     "barrage": [
       "如果真爱有颜色，那一定是蓝色！"
     ]
@@ -15,16 +15,16 @@
   {
     "name": "野村美希",
     "anime": "夏日口袋",
-    "image_url": "img/"
+    "image_url": "img/NomuraMiki.jpg"
   },
   {
     "name": "林尼",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/Lyney.avif"
   },
   {
     "name": "琳妮特",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/Lynette.avif"
   }
 ]
