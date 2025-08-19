@@ -247,3 +247,7 @@ AniDay 提供二次元角色生日、二次元节日查询和可视化展示。�
 ### 贡献须知
 
 请确保您已经仔细阅读角色与作品命名及收录规范。
+
+## License
+This project is licensed under the terms of the [GNU Affero General Public License v3.0](LICENSE).
+
