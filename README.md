@@ -18,7 +18,7 @@ AniDay 提供二次元角色生日、二次元节日查询和可视化展示。�
 
 ## 使用方法
 
-访问[网站](http://neijuan.fun/)即可。
+访问[网站](https://neijuan.fun/)即可。
 
 ## 开发进程
 
@@ -242,8 +242,12 @@ AniDay 提供二次元角色生日、二次元节日查询和可视化展示。�
 
 11. **解释权**
 
-* 本规范的最终解释权归 **LINMOHAN** 所有。
+* 本规范的最终解释权归 **[LINMOHAN](https://github.com/LINMOH)** 所有。
 
 ### 贡献须知
 
 请确保您已经仔细阅读角色与作品命名及收录规范。
+
+## License
+This project is licensed under the terms of the [GNU Affero General Public License v3.0](LICENSE).
+
