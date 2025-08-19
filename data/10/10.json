@@ -8,5 +8,13 @@
     "name": "岛田美波",
     "anime": "笨蛋、测验、召唤兽",
     "image_url": "img/ShimadaMinami.jpg"
+  },
+  {
+    "name": "萌节",
+    "anime": "地球 Online",
+    "image_url": "img/moenohi.webp",
+    "barrage": [
+      "将萌字分解之后，就可得到‘十’与‘十’，‘日’与‘月’，也就是十月十日！‘萌日’！"
+    ]
   }
 ]

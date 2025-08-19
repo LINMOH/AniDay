@@ -13,8 +13,11 @@
 
 [
   {
-    "name": "三月七",
-    "anime": "崩坏：星穹铁道",
-    "image_url": "img/"
+    "name": "萌节",
+    "anime": "地球 Online",
+    "image_url": "img/moenohi.webp",
+    "barrage": [
+      "将萌字分解之后，就可得到‘十’与‘十’，‘日’与‘月’，也就是十月十日！‘萌日’！"
+    ]
   }
 ]

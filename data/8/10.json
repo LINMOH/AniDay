@@ -3,5 +3,17 @@
     "name": "安柏",
     "anime": "原神",
     "image_url": "img/Amber.jpg"
+  },
+  {
+    "name": "野兽日",
+    "anime": "地球 Online",
+    "image_url": "img/Tadokoro.jpg",
+    "barrage": [
+      "114514",
+      "ンアッー！！",
+      "homo",
+      "会员制餐厅",
+      "†悔い改めて†"
+    ]
   }
 ]
