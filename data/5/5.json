@@ -2,22 +2,34 @@
   {
     "name": "中野一花",
     "anime": "五等分的新娘",
-    "image_url": "img/NakanoIchika.jpg"
+    "image_url": "img/NakanoIchika.jpg",
+    "barrage": [
+      "骗你的哦、全部...都是骗你的。"
+    ]
   },
   {
     "name": "中野二乃",
     "anime": "五等分的新娘",
-    "image_url": "img/NakanoNino.jpg"
+    "image_url": "img/NakanoNino.jpg",
+    "barrage": [
+      "我会让你知道我比任何人都喜欢你。"
+    ]
   },
   {
     "name": "中野三玖",
     "anime": "五等分的新娘",
-    "image_url": "img/NakanoMiku.jpg"
+    "image_url": "img/NakanoMiku.jpg",
+    "barrage": [
+      "我不会再迷茫了。"
+    ]
   },
   {
     "name": "中野四叶",
     "anime": "五等分的新娘",
-    "image_url": "img/NakanoYotsuba.jpg"
+    "image_url": "img/NakanoYotsuba.jpg",
+    "barrage": [
+      "上杉同学...我喜欢你、一直都是。"
+    ]
   },
   {
     "name": "伊井野弥子",

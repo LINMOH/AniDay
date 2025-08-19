@@ -2,11 +2,20 @@
   {
     "name": "东云名乃",
     "anime": "日常",
-    "image_url": "img/ShinonomeNano.jpg"
+    "image_url": "img/ShinonomeNano.jpg",
+    "barrage": [
+      "青春的每一天都是很贵重的！！",
+      "青春の毎日はとても貴重です！"
+    ]
   },
   {
     "name": "三月七",
     "anime": "崩坏：星穹铁道",
-    "image_url": "img/March7th.png"
+    "image_url": "img/March7th.png",
+    "barrage": [
+      "所有的东西，都要拍下来，这样就不会忘啦！",
+      "劳您担待啦！",
+      "这回我可没惹麻烦，还救了大家，所以我就不谦虚了，我真厉害！"
+    ]
   }
 ]

@@ -2,21 +2,33 @@
   {
     "name": "小舟澪",
     "anime": "夏日重现",
-    "image_url": "img/"
+    "image_url": "img/KofuneMio.jpg",
+    "barrage": [
+      "想跟喜欢的人在一起，有什么问题吗！"
+    ]
   },
   {
     "name": "菱形窗",
     "anime": "夏日重现",
-    "image_url": "img/"
+    "image_url": "img/HishigataSō.jpg",
+    "barrage": [
+      "想跟喜欢的人在一起，有什么问题吗！"
+    ]
   },
   {
     "name": "绫小路清隆",
     "anime": "欢迎来到实力至上主义的教室",
-    "image_url": "img/"
+    "image_url": "img/AyanokōjiKiyotaka.png",
+    "barrage": [
+      "人与人之间是平等的吗？不管怎么说，人类是一种会思考的动物。",
+      "现代社会不停地在倡导平等、平等。有位伟人曾说道“天不造人上之人，亦不造人下之人。”",
+      "但这句话还有后续，“人虽生来平等，但后来人之间产生的差距在于学与不学。”",
+      "虽然平等这个词充斥着谎言，但不平等也是一件令人难以接受的现实。"
+    ]
   },
   {
     "name": "穗月椛",
     "anime": "别当欧尼酱了！",
-    "image_url": "img/"
+    "image_url": "img/HozukiMomiji.jpg"
   }
 ]

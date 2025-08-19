@@ -2,11 +2,9 @@
   {
     "name": "加藤羽未",
     "anime": "夏日口袋",
-    "image_url": "img/"
-  },
-  {
-    "name": "花菱春香",
-    "anime": "憧憬成为魔法少女",
-    "image_url": "img/"
+    "image_url": "img/KatōUmi.jpg",
+    "barrage": [
+      "元气不足呀，那要吃点炒饭吗？"
+    ]
   }
 ]

@@ -2,7 +2,13 @@
   {
     "name": "白井黑子",
     "anime": "某科学的超电磁炮",
-    "image_url": "img/ShiraiKuroko.png"
+    "image_url": "img/ShiraiKuroko.png",
+    "barrage": [
+      "ジャッジメントですの！",
+      "我是风纪委员！",
+      "お姉さま！！！",
+      "姐姐大人！！！"
+    ]
   },
   {
     "name": "九条娑罗",

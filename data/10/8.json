@@ -2,16 +2,22 @@
   {
     "name": "鹤见知利子",
     "anime": "未闻花名",
-    "image_url": "img/"
+    "image_url": "img/TsurumiChiriko.jpg"
   },
   {
     "name": "朝仓美羽",
     "anime": "文学少女",
-    "image_url": "img/"
+    "image_url": "img/AsakuraMiu.jpg"
   },
   {
     "name": "凉宫春日",
     "anime": "凉宫春日系列",
-    "image_url": "img/"
+    "image_url": "img/SuzumiyaHaruhi.jpg",
+    "barrage": [
+      "ただの人間には興味ありません！",
+      "我对普通的人类不感兴趣。",
+      "この中に宇宙人、未来人、異世界人、超能力者がいたら、あたしのところに来なさい。",
+      "你们之中若是有外星人、未来人、异世界人、超能力者的话，就尽管来找我吧。以上！"
+    ]
   }
 ]

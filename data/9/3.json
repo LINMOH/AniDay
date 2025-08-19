@@ -2,6 +2,9 @@
   {
     "name": "哆啦 A 梦",
     "anime": "哆啦 A 梦",
-    "image_url": "img/"
+    "image_url": "img/Doraemon.jpg",
+    "barrage": [
+      "日积月累，积少成多。每天投入一点努力，就会堆积起来，为你创造基础。"
+    ]
   }
 ]

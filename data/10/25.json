@@ -1,14 +1,12 @@
 [
   {
-    "name": "优菈",
+    "name": "优菈·劳伦斯",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/EulaLawrence.jpg"
   },
-  [
   {
     "name": "娜娜莉·vi·布里塔尼亚",
     "anime": "CODE GEASS",
-    "image_url": "img/"
+    "image_url": "img/NunnallyviBritannia.jpg"
   }
-]
 ]

@@ -2,7 +2,11 @@
   {
     "name": "七宫智音",
     "anime": "中二病也要谈恋爱！",
-    "image_url": "img/ShichimiyaSatone.jpg"
+    "image_url": "img/ShichimiyaSatone.jpg",
+    "barrage": [
+      "もし…もしも あの時 メダルではなく 勇者の手を握ってたら 私は…",
+      "如果…如果那时候 握住的不是硬币 而是勇者的手的话，我…"
+    ]
   },
   {
     "name": "阿良河基维",

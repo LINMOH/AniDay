@@ -2,16 +2,24 @@
   {
     "name": "鸢一折纸",
     "anime": "约会大作战",
-    "image_url": "img/"
+    "image_url": "img/TobiichiOrigami.jpg",
+    "barrage": [
+      "你是想淋上去？还是想喝下去？",
+      "至今为止我对士道所抱有的感情并不是爱，而是单纯的依存心……真正的爱情，从现在才要开始。",
+      "而且……我很开心你愿意依赖我，让我跟你一起并肩作战。因为……女孩子并非只有被人保护才是幸福。"
+    ]
   },
   {
     "name": "中野梓",
     "anime": "轻音少女",
-    "image_url": "img/"
+    "image_url": "img/NakanoAzusa.jpg",
+    "barrage": [
+      "あずにゃん——！"
+    ]
   },
   {
     "name": "基尼奇",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/Kinich.jpg"
   }
 ]

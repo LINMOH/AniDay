@@ -2,11 +2,15 @@
   {
     "name": "漆原琉华",
     "anime": "命运石之门",
-    "image_url": "img/"
+    "image_url": "img/UrushibaraRuka.jpg"
   },
   {
     "name": "丹生谷森夏",
     "anime": "中二病也要谈恋爱！",
-    "image_url": "img/"
+    "image_url": "img/NibutaniShinka.jpg",
+    "barrage": [
+      "刚才看到的，如果敢对班里的人说…我就杀了你…",
+      "不要叫我森大人！！"
+    ]
   }
 ]

@@ -2,6 +2,10 @@
   {
     "name": "刚田武",
     "anime": "哆啦 A 梦",
-    "image_url": "img/GōdaTakeshi.png"
+    "image_url": "img/GōdaTakeshi.png",
+    "barrage": [
+      "你的东西就是我的东西，我的东西还是我的东西。",
+      "おまえのものはおれのもの、おれのものもおれのものな。"
+    ]
   }
 ]

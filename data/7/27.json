@@ -2,7 +2,10 @@
   {
     "name": "逢坂大河",
     "anime": "龙与虎",
-    "image_url": "img/AisakaTaiga.jpg"
+    "image_url": "img/AisakaTaiga.jpg",
+    "barrage": [
+      "那东西既然被你知道了，我就没脸活下去了，只有一死了之了！可是我还不想死，所以只好把你杀了啊！"
+    ]
   },
   {
     "name": "可莉",

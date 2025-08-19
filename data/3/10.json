@@ -2,12 +2,19 @@
   {
     "name": "佐天泪子",
     "anime": "某科学的超电磁炮",
-    "image_url": "img/SatenRuiko.jpg"
+    "image_url": "img/SatenRuiko.jpg",
+    "barrage": [
+      "我，讨厌毫无力量的自己，但是，无论如何都没办法压抑住那种憧憬。"
+    ]
   },
   {
     "name": "长野原美绪",
     "anime": "日常",
-    "image_url": "img/NaganoharaMio.jpg"
+    "image_url": "img/NaganoharaMio.jpg",
+    "barrage": [
+      "青春的每一天都是很贵重的！！",
+      "青春の毎日はとても貴重です！"
+    ]
   },
   {
     "name": "申鹤",

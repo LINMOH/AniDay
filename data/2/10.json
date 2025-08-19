@@ -2,6 +2,10 @@
   {
     "name": "三笠·阿克曼",
     "anime": "进击的巨人",
-    "image_url": "img/MikasaAckerman.webp"
+    "image_url": "img/MikasaAckerman.webp",
+    "barrage": [
+      "エレン･･･あなたがいれば、私は何でもできる",
+      "艾伦……只要有你在，我就无所不能。"
+    ]
   }
 ]

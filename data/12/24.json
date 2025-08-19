@@ -1,32 +1,42 @@
 [
   {
-    "name": "伊藤诚",
+    "name": "伊藤诚的祭日",
     "anime": "日在校园",
-    "image_url": "img/"
+    "image_url": "img/ItouMakoto.jpeg",
+    "barrage": [
+      "诚哥死得早啊！",
+      "这个角色怎么没有头的样子……",
+      "默哀一分钟",
+      "节哀"
+    ]
   },
   {
     "name": "古河渚",
     "anime": "CLANNAD",
-    "image_url": "img/"
+    "image_url": "img/NagisaFurukawa.jpg",
+    "barrage": [
+      "让我带你去吧，这座小镇，实现愿望的地方。",
+      "让我带你去吧，这座小镇，实现愿望的地方。"
+    ]
   },
   {
     "name": "玛利亚·米哈伊罗夫纳·九条",
     "anime": "不时轻声地以俄语遮羞的邻座艾莉同学",
-    "image_url": "img/"
+    "image_url": "img/MariyaMikhaylovnaKujō.jpg"
   },
   {
     "name": "橘·希尔芬福特",
     "anime": "干物妹！小埋",
-    "image_url": "img/"
+    "image_url": "img/TachibanaSylphinford.png"
   },
   {
     "name": "千鸟要",
     "anime": "全金属狂潮",
-    "image_url": "img/"
+    "image_url": "img/KanameChidori.jpg"
   },
   {
     "name": "泰蕾莎·泰斯塔罗莎",
     "anime": "全金属狂潮",
-    "image_url": "img/"
+    "image_url": "img/TeresaTestarossa.jpg"
   }
 ]

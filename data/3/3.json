@@ -12,7 +12,11 @@
   {
     "name": "比企谷小町",
     "anime": "我的青春恋爱物语果然有问题。",
-    "image_url": "img/HikigayaKomachi.jpg"
+    "image_url": "img/HikigayaKomachi.jpg",
+    "barrage": [
+      "それ、小町的にポイント高いよ、お兄ちゃん！",
+      "现在的小町分数很高哟，哥哥！"
+    ]
   },
   {
     "name": "七七",

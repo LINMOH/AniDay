@@ -2,7 +2,11 @@
   {
     "name": "市川京太郎",
     "anime": "我心里危险的东西",
-    "image_url": "img/IchikawaKyōtarō.jpg"
+    "image_url": "img/IchikawaKyōtarō.jpg",
+    "barrage": [
+      "靠近一点儿就会跑开，真的是个像猫一样的人",
+      "质疑市川，理解市川，成为山田，（）"
+    ]
   },
   {
     "name": "神里绫人",

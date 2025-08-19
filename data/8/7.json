@@ -2,26 +2,29 @@
   {
     "name": "宫泽有纪宁",
     "anime": "CLANNAD",
-    "image_url": "img/"
+    "image_url": "img/MiyazawaYukine.jpg"
   },
   {
     "name": "野比大雄",
     "anime": "哆啦 A 梦",
-    "image_url": "img/"
+    "image_url": "img/NobiNobita.jpg"
   },
   {
     "name": "花冈真琴",
     "anime": "前辈是男孩子",
-    "image_url": "img/"
+    "image_url": "img/HanaokaMakoto.jpg",
+    "barrage": [
+      "YOOOOOOOOO！"
+    ]
   },
   {
     "name": "安昙小太郎",
     "anime": "月色真美",
-    "image_url": "img/"
+    "image_url": "img/AzumiKotarō.jpg"
   },
   {
     "name": "鬼冢夏美",
     "anime": "LoveLive!Superstar!!",
-    "image_url": "img/"
+    "image_url": "img/OnitsukaNatsumi.jpg"
   }
 ]

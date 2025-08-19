@@ -2,7 +2,11 @@
   {
     "name": "福部里志",
     "anime": "冰菓",
-    "image_url": "img/FukubeSatoshi.jpg"
+    "image_url": "img/FukubeSatoshi.jpg",
+    "barrage": [
+      "データベースは結論を出せないんだ",
+      "数据库是无法得出结论的"
+    ]
   },
   {
     "name": "镜野七罪",
@@ -12,6 +16,16 @@
   {
     "name": "神尾观铃",
     "anime": "AIR",
-    "image_url": "img/KamioMisuzu.jpg"
+    "image_url": "img/KamioMisuzu.jpg",
+    "barrage": [
+      "嘎……嘎哦……",
+      "が…がお…",
+      "为什么要做这种事啊",
+      "どうしてそういうことするかなぁ",
+      "小观铃陷入危机了",
+      "観鈴ちん、ぴんち",
+      "预备……咚",
+      "よい…どん"
+    ]
   }
 ]

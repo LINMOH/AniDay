@@ -2,6 +2,12 @@
   {
     "name": "夏目贵志",
     "anime": "夏目友人帐",
-    "image_url": "img/NatsumeTakashi.jpg"
+    "image_url": "img/NatsumeTakashi.jpg",
+    "barrage": [
+      "此生无悔入夏目，来世愿做帐中妖",
+      "目之所及永无忘，心有所觉亦不解",
+      "今朝执笔皆无言，吾等在此候君归",
+      "愿汝轻声唤吾名，得守身侧伴汝生"
+    ]
   }
 ]

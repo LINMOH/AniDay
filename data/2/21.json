@@ -2,11 +2,18 @@
   {
     "name": "君岛绫乃",
     "anime": "不时轻声地以俄语遮羞的邻座艾莉同学",
-    "image_url": "img/KimishimaAyano.jpg"
+    "image_url": "img/KimishimaAyano.jpg",
+    "barrage": [
+      "我如同敬爱有希大人一样敬爱政近大人，但并未抱有恋爱感情，请将我当作道具使用就好"
+    ]
   },
   {
     "name": "后藤一里",
     "anime": "孤独摇滚！",
-    "image_url": "img/boochi.jpg"
+    "image_url": "img/boochi.jpg",
+    "barrage": [
+      "絶対いやだ！働きたくない！！怖い！社会が怖い！！",
+      "绝对不要啊！我不想工作！！好可怕！社会太可怕了！！"
+    ]
   }
 ]

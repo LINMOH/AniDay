@@ -2,11 +2,14 @@
   {
     "name": "空门苍",
     "anime": "夏日口袋",
-    "image_url": "img/"
+    "image_url": "img/SorakadoAo.jpg",
+    "barrage": [
+      "总之，就算我在睡觉也不必管啦"
+    ]
   },
   {
     "name": "克洛琳德",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/Clorinde.jpg"
   }
 ]

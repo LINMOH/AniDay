@@ -2,21 +2,26 @@
   {
     "name": "温水和彦",
     "anime": "败犬女主太多了！",
-    "image_url": "img/"
+    "image_url": "img/NukumizuKazuhiko.jpg"
   },
   {
     "name": "宫野志保(灰原哀)",
     "anime": "名侦探柯南",
-    "image_url": "img/"
+    "image_url": "img/MiyanoShiho2.jpg"
   },
   {
     "name": "崇宫澪",
     "anime": "约会大作战",
-    "image_url": "img/"
+    "image_url": "img/TakamiyaMio.jpg",
+    "barrage": [
+      "我不像你们那么脆弱。可以一死了之。",
+      "可我也不像你们那么坚强 。 可以忘掉一个人从头开始 。",
+      "我要找他回来，可以说是自私。我只能找他回来"
+    ]
   },
   {
     "name": "C.C.",
     "anime": "CODE GEASS",
-    "image_url": "img/"
+    "image_url": "img/C.C..jpg"
   }
 ]

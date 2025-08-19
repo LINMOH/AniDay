@@ -2,6 +2,10 @@
   {
     "name": "折木奉太郎",
     "anime": "冰菓",
-    "image_url": "img/OrekiHōtarō.jpg"
+    "image_url": "img/OrekiHōtarō.jpg",
+    "barrage": [
+      "やらなくてもいいことなら、やらない。やらなければいけないことなら手短に",
+      "不必要做的事不做，必须做的一律从简"
+    ]
   }
 ]

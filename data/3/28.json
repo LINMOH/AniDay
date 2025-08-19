@@ -2,6 +2,9 @@
   {
     "name": "骨川小夫",
     "anime": "哆啦 A 梦",
-    "image_url": "img/HonekawaSuneo.png"
+    "image_url": "img/HonekawaSuneo.png",
+    "barrage": [
+      "现在这个世界上最重要的东西是钱，其次是头脑和灵感。"
+    ]
   }
 ]

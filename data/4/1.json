@@ -2,7 +2,11 @@
   {
     "name": "菜月昴",
     "anime": "Re:从零开始的异世界生活",
-    "image_url": "img/NatsukiSubaru.jpg"
+    "image_url": "img/NatsukiSubaru.jpg",
+    "barrage": [
+      "俺が必ず――お前を救ってみせる！",
+      "我一定会回来拯救你！"
+    ]
   },
   {
     "name": "樱木花道",

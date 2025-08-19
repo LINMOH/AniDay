@@ -2,7 +2,10 @@
   {
     "name": "江户川柯南(工藤新一)",
     "anime": "名侦探柯南",
-    "image_url": "img/EdokawaKonan.jpg"
+    "image_url": "img/EdokawaKonan.jpg",
+    "barrage": [
+      "我叫江户川柯南，是个侦探"
+    ]
   },
   {
     "name": "北白川馅子",

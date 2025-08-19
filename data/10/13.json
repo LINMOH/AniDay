@@ -1,7 +1,10 @@
 [
   {
-    "name": "芙宁娜",
+    "name": "芙宁娜·德·枫丹（芙卡洛斯）",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/FurinadeFontaine.jpg",
+    "barrage": [
+      "永世领唱，无尽圆舞"
+    ]
   }
 ]

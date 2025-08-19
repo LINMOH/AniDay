@@ -2,6 +2,9 @@
   {
     "name": "小林",
     "anime": "小林家的龙女仆",
-    "image_url": "img/Kobayashi.jpg"
+    "image_url": "img/Kobayashi.jpg",
+    "barrage": [
+      "如果神存在的话，请他立即帮我延迟截稿期吧!"
+    ]
   }
 ]

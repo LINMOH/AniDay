@@ -2,11 +2,14 @@
   {
     "name": "䌷文德斯",
     "anime": "夏日口袋",
-    "image_url": "img/"
+    "image_url": "img/TsumugiWenders.jpg",
+    "barrage": [
+      "我在找东西。在找想要做的事情"
+    ]
   },
   {
-    "name": "莫娜",
+    "name": "阿斯托洛吉斯·莫娜·梅姬斯图斯",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/AstrologistMonaMegistus.jpg"
   }
 ]

@@ -2,6 +2,9 @@
   {
     "name": "夜神月",
     "anime": "死亡笔记",
-    "image_url": "img/YagamiLight.jpg"
+    "image_url": "img/YagamiLight.jpg",
+    "barrage": [
+      "我要成为新世界的神！"
+    ]
   }
 ]

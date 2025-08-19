@@ -2,6 +2,11 @@
   {
     "name": "篠原明里",
     "anime": "秒速 5 厘米",
-    "image_url": "img/ShinoharaAkari.jpg"
+    "image_url": "img/ShinoharaAkari.jpg",
+    "barrage": [
+      "樱花飘落的速度，是秒速五厘米",
+      "桜の花びらが落ちるスピード、秒速5センチメートルだって",
+      "樱花下落的速度是每秒五厘米，我要以怎样的速度才能与你相遇。"
+    ]
   }
 ]

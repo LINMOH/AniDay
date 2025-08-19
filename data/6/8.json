@@ -2,6 +2,10 @@
   {
     "name": "鸣濑白羽",
     "anime": "夏日口袋",
-    "image_url": "img/NaruseShiroha.jpg"
+    "image_url": "img/NaruseShiroha.jpg",
+    "barrage": [
+      "唯有那份炫目，未曾忘却。",
+      "不要太在意我会比较好"
+    ]
   }
 ]

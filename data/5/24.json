@@ -2,6 +2,10 @@
   {
     "name": "岩户铃芽",
     "anime": "铃芽之旅",
-    "image_url": "img/IwadoSuzume.jpg"
+    "image_url": "img/IwadoSuzume.jpg",
+    "barrage": [
+      "行ってきます",
+      "我出发了！"
+    ]
   }
 ]

@@ -2,11 +2,18 @@
   {
     "name": "立花泷",
     "anime": "你的名字。",
-    "image_url": "img/"
+    "image_url": "img/TachibanaTaki.png",
+    "barrage": [
+      "不管你在这个世界的哪里，我都会再一次去见你。"
+    ]
   },
   {
     "name": "宫水三叶",
     "anime": "你的名字。",
-    "image_url": "img/"
+    "image_url": "img/MiyamizuMitsuha.png",
+    "barrage": [
+      "已经受够这样的小镇了！受够这样的人生了！来世请让我转生成一名东京的帅气男生吧！",
+      "もうこんな町いややー！こんな人生いややー！来世は東京のイケメン男子にしてくださーい！"
+    ]
   }
 ]

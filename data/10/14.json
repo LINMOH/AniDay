@@ -2,21 +2,28 @@
   {
     "name": "坂上智代",
     "anime": "CLANNAD",
-    "image_url": "img/"
+    "image_url": "img/SakagamiTomoyo.jpg"
   },
   {
     "name": "千反田爱瑠",
     "anime": "冰菓",
-    "image_url": "img/"
+    "image_url": "img/ChitandaEru.jpg",
+    "barrage": [
+      "私、気になります！",
+      "我很好奇！"
+    ]
   },
   {
     "name": "五月七日茴香",
     "anime": "中二病也要谈恋爱！",
-    "image_url": "img/"
+    "image_url": "img/TsuyuriKumin.jpg",
+    "barrage": [
+      "邪王真眼是最强的！"
+    ]
   },
   {
     "name": "欧洛伦",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/Ororon.webp"
   }
 ]

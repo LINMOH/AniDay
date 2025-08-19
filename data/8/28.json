@@ -2,11 +2,19 @@
   {
     "name": "玛薇卡",
     "anime": "原神",
-    "image_url": ""
+    "image_url": "img/Mavuika.jpg"
   },
   {
     "name": "亚托莉",
     "anime": "ATRI -My Dear Moments-",
-    "image_url": "img/"
+    "image_url": "img/ATRI.jpg",
+    "barrage": [
+      "わたしが夏生さんの足になります！",
+      "我会成为夏生先生的腿！",
+      "美味しいは嬉しいです！",
+      "好吃就是高兴嘛！",
+      "地球に私も含まれますか？",
+      "地球也包括我吗？"
+    ]
   }
 ]

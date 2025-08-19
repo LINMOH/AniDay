@@ -2,12 +2,18 @@
   {
     "name": "樱桃子",
     "anime": "樱桃小丸子",
-    "image_url": "img/SakuraMomoko.webp"
+    "image_url": "img/SakuraMomoko.webp",
+    "barrage": [
+      "人只要活着，就一定会遇见好事。"
+    ]
   },
   {
     "name": "网代慎平",
     "anime": "夏日重现",
-    "image_url": "img/AjiroShinpei.jpg"
+    "image_url": "img/AjiroShinpei.jpg",
+    "barrage": [
+      "想跟喜欢的人在一起，有什么问题吗！"
+    ]
   },
   {
     "name": "柯莱",
