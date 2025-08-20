@@ -4,6 +4,17 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #e8ebf4;
