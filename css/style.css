@@ -11,9 +11,18 @@ a {
 }
 
 a:hover {
-    color: #ff6600;
+    color: #ff6600; 
     text-decoration: underline;
 }
+
+footer a {
+    color: #1e90ff;
+}
+
+footer a:hover {
+    color: #ff6600;
+}
+
 
 body {
     font-family: Arial, sans-serif;
